@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Anonim</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Anonymous Message</h1>
+            <p class="subtitle">Tulis. Kirim. Rahasia.</p>
+        </header>
+
+        <section class="message-form">
+            <h2>Kirim Pesan</h2>
+            <form id="anonymous-form">
+                <div class="form-group">
+                    <label for="recipient">Untuk :</label>
+                    <input type="text" id="recipient" placeholder="Siapa yang ingin kamu kirimi pesan?" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan Kamu:</label>
+                    <textarea id="message" placeholder="Tulis pesan anonim kamu di sini yaa..." required></textarea>
+                </div>
+                <button type="submit">Silent submit</button>
+            </form>
+        </section>
+
+        <section class="messages-container">
+            <h2>New Messages</h2>
+            <div id="messages-list">
+                <p class="no-messages">Belum ada pesan nih. Jadi yang pertama buat kirim pesan yuk!</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 | Salwa</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
